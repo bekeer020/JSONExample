@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D99DC6F-FD42-46D1-B823-2F10E5930542</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyJSONExampli</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC4F92312A46DBB56C513CF91144BF3839866D96</key>
+		<string>https://github.com/bekeer020/JSONWxample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyJSONExampli.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC4F92312A46DBB56C513CF91144BF3839866D96</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bekeer020/JSONWxample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC4F92312A46DBB56C513CF91144BF3839866D96</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC4F92312A46DBB56C513CF91144BF3839866D96</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyJSONExampli</string>
+		</dict>
+	</array>
+</dict>
+</plist>
