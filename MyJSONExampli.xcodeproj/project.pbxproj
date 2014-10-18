@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9CBF8419F18F970066F4E6 /* greenbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9CBF7719F18F970066F4E6 /* greenbox@2x.png */; };
+		3C9CBF8519F18F970066F4E6 /* orangebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9CBF7819F18F970066F4E6 /* orangebox@2x.png */; };
+		3C9CBF8619F18F970066F4E6 /* RecessionTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CBF7B19F18F970066F4E6 /* RecessionTipsViewController.m */; };
+		3C9CBF8719F18F970066F4E6 /* RecessionTipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CBF7E19F18F970066F4E6 /* RecessionTipModel.m */; };
+		3C9CBF8819F18F970066F4E6 /* RecessionTipsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CBF8019F18F970066F4E6 /* RecessionTipsParser.m */; };
+		3C9CBF8919F18F970066F4E6 /* RecessionTipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CBF8319F18F970066F4E6 /* RecessionTipCell.m */; };
 		3C9F0D8E19F129F70092AAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0D8D19F129F70092AAF3 /* main.m */; };
 		3C9F0D9119F129F70092AAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0D9019F129F70092AAF3 /* AppDelegate.m */; };
-		3C9F0D9419F129F70092AAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0D9319F129F70092AAF3 /* ViewController.m */; };
 		3C9F0D9719F129F70092AAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F0D9519F129F70092AAF3 /* Main.storyboard */; };
 		3C9F0D9919F129F70092AAF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F0D9819F129F70092AAF3 /* Images.xcassets */; };
 		3C9F0D9C19F129F70092AAF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F0D9A19F129F70092AAF3 /* LaunchScreen.xib */; };
 		3C9F0DA819F129F70092AAF3 /* MyJSONExampliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0DA719F129F70092AAF3 /* MyJSONExampliTests.m */; };
+		3C9F0DB319F12A6B0092AAF3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0DB219F12A6B0092AAF3 /* TableViewController.m */; };
+		3C9F0DB819F12B670092AAF3 /* StudentObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0DB719F12B670092AAF3 /* StudentObjectModel.m */; };
+		3C9F0DBB19F12D470092AAF3 /* StudentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0DBA19F12D470092AAF3 /* StudentParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C9CBF7719F18F970066F4E6 /* greenbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenbox@2x.png"; sourceTree = "<group>"; };
+		3C9CBF7819F18F970066F4E6 /* orangebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangebox@2x.png"; sourceTree = "<group>"; };
+		3C9CBF7A19F18F970066F4E6 /* RecessionTipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecessionTipsViewController.h; sourceTree = "<group>"; };
+		3C9CBF7B19F18F970066F4E6 /* RecessionTipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecessionTipsViewController.m; sourceTree = "<group>"; };
+		3C9CBF7D19F18F970066F4E6 /* RecessionTipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecessionTipModel.h; sourceTree = "<group>"; };
+		3C9CBF7E19F18F970066F4E6 /* RecessionTipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecessionTipModel.m; sourceTree = "<group>"; };
+		3C9CBF7F19F18F970066F4E6 /* RecessionTipsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecessionTipsParser.h; sourceTree = "<group>"; };
+		3C9CBF8019F18F970066F4E6 /* RecessionTipsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecessionTipsParser.m; sourceTree = "<group>"; };
+		3C9CBF8219F18F970066F4E6 /* RecessionTipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecessionTipCell.h; sourceTree = "<group>"; };
+		3C9CBF8319F18F970066F4E6 /* RecessionTipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecessionTipCell.m; sourceTree = "<group>"; };
 		3C9F0D8819F129F70092AAF3 /* MyJSONExampli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJSONExampli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9F0D8C19F129F70092AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9F0D8D19F129F70092AAF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C9F0D8F19F129F70092AAF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C9F0D9019F129F70092AAF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C9F0D9219F129F70092AAF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C9F0D9319F129F70092AAF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C9F0D9619F129F70092AAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C9F0D9819F129F70092AAF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C9F0D9B19F129F70092AAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C9F0DA119F129F70092AAF3 /* MyJSONExampliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJSONExampliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9F0DA619F129F70092AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9F0DA719F129F70092AAF3 /* MyJSONExampliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyJSONExampliTests.m; sourceTree = "<group>"; };
+		3C9F0DB119F12A6B0092AAF3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		3C9F0DB219F12A6B0092AAF3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		3C9F0DB619F12B670092AAF3 /* StudentObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentObjectModel.h; sourceTree = "<group>"; };
+		3C9F0DB719F12B670092AAF3 /* StudentObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentObjectModel.m; sourceTree = "<group>"; };
+		3C9F0DB919F12D470092AAF3 /* StudentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentParser.h; sourceTree = "<group>"; };
+		3C9F0DBA19F12D470092AAF3 /* StudentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C9CBF7519F18F970066F4E6 /* JSONWebService */ = {
+			isa = PBXGroup;
+			children = (
+				3C9CBF7619F18F970066F4E6 /* CellBG */,
+				3C9CBF7919F18F970066F4E6 /* Controller */,
+				3C9CBF7C19F18F970066F4E6 /* Model */,
+				3C9CBF8119F18F970066F4E6 /* View */,
+			);
+			path = JSONWebService;
+			sourceTree = "<group>";
+		};
+		3C9CBF7619F18F970066F4E6 /* CellBG */ = {
+			isa = PBXGroup;
+			children = (
+				3C9CBF7719F18F970066F4E6 /* greenbox@2x.png */,
+				3C9CBF7819F18F970066F4E6 /* orangebox@2x.png */,
+			);
+			path = CellBG;
+			sourceTree = "<group>";
+		};
+		3C9CBF7919F18F970066F4E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C9CBF7A19F18F970066F4E6 /* RecessionTipsViewController.h */,
+				3C9CBF7B19F18F970066F4E6 /* RecessionTipsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C9CBF7C19F18F970066F4E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9CBF7D19F18F970066F4E6 /* RecessionTipModel.h */,
+				3C9CBF7E19F18F970066F4E6 /* RecessionTipModel.m */,
+				3C9CBF7F19F18F970066F4E6 /* RecessionTipsParser.h */,
+				3C9CBF8019F18F970066F4E6 /* RecessionTipsParser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C9CBF8119F18F970066F4E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C9CBF8219F18F970066F4E6 /* RecessionTipCell.h */,
+				3C9CBF8319F18F970066F4E6 /* RecessionTipCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3C9F0D7F19F129F70092AAF3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +152,12 @@
 		3C9F0D8A19F129F70092AAF3 /* MyJSONExampli */ = {
 			isa = PBXGroup;
 			children = (
+				3C9CBF7519F18F970066F4E6 /* JSONWebService */,
 				3C9F0D8F19F129F70092AAF3 /* AppDelegate.h */,
 				3C9F0D9019F129F70092AAF3 /* AppDelegate.m */,
-				3C9F0D9219F129F70092AAF3 /* ViewController.h */,
-				3C9F0D9319F129F70092AAF3 /* ViewController.m */,
 				3C9F0D9519F129F70092AAF3 /* Main.storyboard */,
+				3C9F0DB519F12B0E0092AAF3 /* Model */,
+				3C9F0DB419F12ADD0092AAF3 /* View */,
 				3C9F0D9819F129F70092AAF3 /* Images.xcassets */,
 				3C9F0D9A19F129F70092AAF3 /* LaunchScreen.xib */,
 				3C9F0D8B19F129F70092AAF3 /* Supporting Files */,
@@ -117,6 +189,26 @@
 				3C9F0DA619F129F70092AAF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C9F0DB419F12ADD0092AAF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F0DB119F12A6B0092AAF3 /* TableViewController.h */,
+				3C9F0DB219F12A6B0092AAF3 /* TableViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3C9F0DB519F12B0E0092AAF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F0DB619F12B670092AAF3 /* StudentObjectModel.h */,
+				3C9F0DB719F12B670092AAF3 /* StudentObjectModel.m */,
+				3C9F0DB919F12D470092AAF3 /* StudentParser.h */,
+				3C9F0DBA19F12D470092AAF3 /* StudentParser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +293,9 @@
 			files = (
 				3C9F0D9719F129F70092AAF3 /* Main.storyboard in Resources */,
 				3C9F0D9C19F129F70092AAF3 /* LaunchScreen.xib in Resources */,
+				3C9CBF8419F18F970066F4E6 /* greenbox@2x.png in Resources */,
 				3C9F0D9919F129F70092AAF3 /* Images.xcassets in Resources */,
+				3C9CBF8519F18F970066F4E6 /* orangebox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9F0D9419F129F70092AAF3 /* ViewController.m in Sources */,
+				3C9CBF8819F18F970066F4E6 /* RecessionTipsParser.m in Sources */,
+				3C9F0DB819F12B670092AAF3 /* StudentObjectModel.m in Sources */,
 				3C9F0D9119F129F70092AAF3 /* AppDelegate.m in Sources */,
+				3C9F0DB319F12A6B0092AAF3 /* TableViewController.m in Sources */,
+				3C9F0DBB19F12D470092AAF3 /* StudentParser.m in Sources */,
+				3C9CBF8619F18F970066F4E6 /* RecessionTipsViewController.m in Sources */,
+				3C9CBF8919F18F970066F4E6 /* RecessionTipCell.m in Sources */,
 				3C9F0D8E19F129F70092AAF3 /* main.m in Sources */,
+				3C9CBF8719F18F970066F4E6 /* RecessionTipModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +512,7 @@
 				3C9F0DAD19F129F70092AAF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9F0DAE19F129F70092AAF3 /* Build configuration list for PBXNativeTarget "MyJSONExampliTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +521,7 @@
 				3C9F0DB019F129F70092AAF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
